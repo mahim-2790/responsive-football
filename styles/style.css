@@ -50,7 +50,7 @@ header {
   margin-bottom: 70px;
 }
 /* navbar */
-.fa-bars {
+nav .fa-bars {
   display: none;
 }
 nav {
@@ -80,7 +80,7 @@ li {
   justify-content: center;
 }
 .banner-text {
-  margin-right: 102px;
+  flex-basis: 40%;
   color: #fff;
 }
 .banner-text h1 {
@@ -135,6 +135,7 @@ li {
 }
 .highlight-description {
   margin-right: 66px;
+  flex-basis: 30%;
 }
 
 .highlight-description p {
@@ -226,7 +227,7 @@ footer img {
 
 /* media-queries */
 
-@media only screen and (max-width: 688px) {
+@media (max-width: 688px) {
   /* navbar */
   .fa-bars {
     display: block;
