@@ -58,22 +58,22 @@ header:hover .anim-box {
   }
   25% {
     left: 25%;
-    top: 550px;
+    top: 530px;
     transform: rotate(270deg);
   }
   50% {
     left: 55%;
-    top: 300px;
+    top: 250px;
     transform: rotate(540deg);
   }
   75% {
     left: 80%;
-    top: 550px;
+    top: 530px;
     transform: rotate(720deg);
   }
   100% {
     left: 100%;
-    top: 450px;
+    top: 400px;
     transform: rotate(900deg);
   }
 }
@@ -345,6 +345,7 @@ footer img {
 
   /* footer-section */
   footer img {
+    /* height: 65px; */
     width: 90%;
   }
 }
