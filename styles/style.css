@@ -101,7 +101,7 @@ li {
 ul li a:hover {
   background-color: #e02c6d;
 }
-#nav-button {
+#nav-button a {
   background: #e02c6d;
   padding: 10px 24px;
 }
