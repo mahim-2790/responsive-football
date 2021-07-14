@@ -64,10 +64,15 @@ ul {
   display: flex;
   align-items: center;
 }
-li {
-  margin-right: 36px;
+ul li a {
+  padding: 5px 10px;
 }
-
+li {
+  margin-right: 26px;
+}
+ul li a:hover {
+  background-color: #e02c6d;
+}
 #nav-button {
   background: #e02c6d;
   padding: 10px 24px;
@@ -298,6 +303,7 @@ footer img {
     flex-direction: column;
     justify-content: center;
     width: 95%;
+    margin-bottom: 50px;
   }
   form {
     display: flex;
